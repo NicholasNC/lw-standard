@@ -1,0 +1,24 @@
+{
+    "author": "NicholasNC <wuqinfa@talkmoney.cn>",
+    "description": "This is a standard document of lw",
+    "language" : "zh-hans",
+    "extension": null,
+    "generator": "site",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "NicholasNC Github": "https://github.com/NicholasNC"
+        }
+    },
+    "output": null,
+    "plugins": [],
+    "title": "lw Standard",
+    "variables": {}
+}
+
