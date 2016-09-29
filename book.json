@@ -18,8 +18,14 @@
     },
     "output": null,
     "plugins": [
-        "theme-comscore"
+        "theme-comscore",
+        "disqus"
     ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "lw-tech"
+        }
+    } ,
     "title": "lw Standard",
     "variables": {}
 }
