@@ -19,11 +19,25 @@
     "output": null,
     "plugins": [
         "theme-comscore",
-        "disqus"
+        "disqus",
+        "-search",
+        "search-pro",
+        "emphasize",
+        "splitter",
+        "tbfed-pagefooter"
     ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "lw-tech"
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["小需求","基础建设"]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright & copy wuqinfa@talkmoney.cn",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
         }
     } ,
     "title": "lw Standard",
