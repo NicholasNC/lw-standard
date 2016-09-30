@@ -22,7 +22,8 @@
         "disqus",
         "emphasize",
         "splitter",
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+        "multipart"
     ],
     "pluginsConfig": {
         "disqus": {
