@@ -20,8 +20,6 @@
     "plugins": [
         "theme-comscore",
         "disqus",
-        "-search",
-        "search-pro",
         "emphasize",
         "splitter",
         "tbfed-pagefooter"
@@ -29,10 +27,6 @@
     "pluginsConfig": {
         "disqus": {
             "shortName": "lw-tech"
-        },
-        "search-pro": {
-            "cutWordLib": "nodejieba",
-            "defineWord" : ["小需求","基础建设"]
         },
         "tbfed-pagefooter": {
             "copyright":"Copyright & copy wuqinfa@talkmoney.cn",
