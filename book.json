@@ -23,7 +23,8 @@
         "emphasize",
         "splitter",
         "tbfed-pagefooter",
-        "multipart"
+        "multipart",
+        "include-codeblock"
     ],
     "pluginsConfig": {
         "disqus": {

@@ -1,0 +1,104 @@
+@import './var.scss';
+@import './func.scss';
+
+
+// ********说明********
+// comm.scss，这份文件主要定义了一些通用的数值样式
+// 使用前应该和设计沟通好整个设计稿的主题颜色、字体大小、行间距等
+// 
+// 定义的顺序：
+//      1. 按照规范文档中，css属性声明顺序
+//      
+// 要求：
+//      1. 颜色必须标注大概是什么颜色
+// 
+// 注：
+//      本文件使用的是scss的语法
+//        
+// ********
+
+
+// ********间距********
+.margin-b1 {
+    @include px2rem(margin-bottom, 20px, 75px);
+}
+
+.margin-b2 {
+    @include px2rem(margin-bottom, 28px, 75px);
+}
+
+.margin-b3 {
+    @include px2rem(margin-bottom, 50px, 75px);
+}
+
+.margin-b4 {
+    @include px2rem(margin-bottom, 60px, 75px);
+}
+
+// ********border********
+.border-t {
+    border-top: 1px solid $borderColor1;
+}
+
+.border-r {
+    border-right: 1px solid $borderColor1;
+}
+
+.border-b {
+    border-bottom: 1px solid $borderColor1;
+}
+
+.border-l {
+    border-left: 1px solid $borderColor1;
+}
+
+.border-a {
+    border: 1px solid $borderColor1;
+}
+
+// ********字体大小********
+.font-s1 {
+    @include size-dpr(font-size, 12px);
+}
+
+.font-s2 {
+    @include size-dpr(font-size, 14px);
+}
+
+.font-s3 {
+    @include size-dpr(font-size, 16px);
+}
+
+.font-s4 {
+    @include size-dpr(font-size, 18px);
+}
+
+.font-s5 {
+    @include size-dpr(font-size, 25px);
+}
+
+// ********字体颜色********
+.font-c1 {
+    color: $fontColor1; // 黑色
+}
+
+.font-c2 {
+    color: $fontColor2; // 白色
+}
+
+.font-c3 {
+    color: $mainColor; // 主体颜色，黄色
+}
+
+.font-c4 {
+    color: $fontColor3; // 蓝色
+}
+
+// ********背景颜色********
+.bg-c1 {
+    background: $mainColor; // 主颜色，黄色
+}
+
+.bg-c2 {
+    background: $bgColor1; // 背景色，白色
+}
